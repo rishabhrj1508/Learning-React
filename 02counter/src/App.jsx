@@ -12,6 +12,8 @@ function App() {
     if (counter < 20) {
       counter = counter + 1;
       setCounter(counter);
+
+      //setCounter(counter+1);
       console.log("Clicked", counter);
     }
   };
